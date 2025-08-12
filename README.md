@@ -4,7 +4,7 @@
 
 ## Documentación
 
-### quipo Digital
+### Equipo Digital
 #### Resumen Ejecutivo
 
 ##### Alejandro Cruzado

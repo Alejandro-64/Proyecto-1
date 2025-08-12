@@ -1,0 +1,121 @@
+.other {
+    background-image: url(../../assets/Leather-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+    &__container {
+        max-width: 93.75rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-xxl);
+        padding: var(--spacing-xxl) var(--spacing-xl);
+    }
+    
+    &__title {
+        text-transform: uppercase;
+
+        .subtitle {
+                text-align: center;
+            }
+    }
+
+    &__cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-md);
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-md);
+    
+        &-image {
+            width: 100%;
+            height: 416px;
+            border: 2px solid var(--color-border);
+            border-radius: var(--radius-xsm);
+            overflow: hidden;
+            transition: transform .3s ease;
+
+            &:hover {
+                transform: scale(104%);
+            }
+        }
+
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-xs);
+        }
+
+        &-list {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: var(--spacing-md);
+        }
+
+        &-item {
+            font-size: var(--font-size-md);
+            color: var(--color-white);
+        }
+    }
+
+    &__button {
+        display: flex;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1.25rem;
+        bottom: 0;
+        left: 0;
+        background-image: url("../../assets/Section-divider.png");
+        background-position: center;
+        background-repeat: repeat-x;
+        background-size: cover;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 68.75rem) {
+    .other__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 43.75rem) {
+    .other__container {
+        padding-inline: var(--spacing-md);
+    }
+    .other__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .other__button .button--secondary {
+        padding: 1rem 2rem;
+        font-size: var(--font-size-lg);
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .other__button .button--secondary {
+        text-align: center;
+        padding: 1rem 2rem;
+        font-size: var(--font-size-base);
+    }
+}

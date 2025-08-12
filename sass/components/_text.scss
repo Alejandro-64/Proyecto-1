@@ -1,0 +1,33 @@
+.title {
+    font-size: var(--font-size-max);
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: var(--font-size-max);
+    color: var(--color-white);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.paragraph {
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.title-card {
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.title-content {
+    font-size: var(--font-size-xxl);
+    color: var(--color-white);
+    font-weight: 700;
+    line-height: 1.5;
+}

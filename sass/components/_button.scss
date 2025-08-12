@@ -1,0 +1,33 @@
+.button {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: var(--radius-xsm);
+    filter: brightness(100%);
+    transition: filter .3s ease;
+    
+    &--xl {
+        padding: 1.25rem 2.5rem;
+        font-size: var(--font-size-xl);
+    }
+    
+    &--lg {
+        padding: 1rem 2rem;
+        font-size: var(--font-size-lg);
+    }
+    
+    &--primary {
+        background-image: var(--background-button--primary);
+        color: var(--color-black);
+        box-shadow: var(--shadow-lg);
+    }
+
+    &--secondary {
+        background-image: var(--background-button--secondary);
+        color: var(--color-yellow);
+        box-shadow: var(--shadow-md);
+    }
+
+    &:hover {
+        filter: brightness(120%);
+    }
+}

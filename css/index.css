@@ -47,6 +47,7 @@ html {
 }
 
 body {
+  background-color: var(--color-black);
   font-family: var(--font-primary);
   position: relative;
 }
@@ -229,7 +230,7 @@ img {
   }
 }
 .footer {
-  background-image: url(../../assets//Embers-background.png);
+  background-image: url(../assets/Embers-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -424,7 +425,7 @@ img {
 }
 
 .hero {
-  background-image: url(../../assets/Hero-background.png);
+  background-image: url(../assets/Hero-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -534,7 +535,7 @@ img {
   height: 1.25rem;
   bottom: 0;
   left: 0;
-  background-image: url("../../assets/Section-divider.png");
+  background-image: url("../assets/Section-divider.png");
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
@@ -554,7 +555,7 @@ img {
     padding-inline: 0px;
   }
   .hero__content-top {
-    background-image: url(../../assets/Hero-background.png);
+    background-image: url(../assets/Hero-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -569,14 +570,14 @@ img {
     height: 1.25rem;
     bottom: 0;
     left: 0;
-    background-image: url("../../assets/Section-divider.png");
+    background-image: url("../assets/Section-divider.png");
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
     z-index: 1;
   }
   .hero__content-bottom {
-    background-image: url(../../assets/Hero-background-mobile.png);
+    background-image: url(../assets/Hero-background-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -664,7 +665,7 @@ img {
   }
 }
 .functions {
-  background-image: url(../../assets/Leather-background.png);
+  background-image: url(../assets/Leather-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -735,7 +736,7 @@ img {
   height: 1.25rem;
   bottom: 0;
   left: 0;
-  background-image: url("../../assets/Section-divider.png");
+  background-image: url("../assets/Section-divider.png");
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
@@ -773,7 +774,7 @@ img {
   }
 }
 .breeds {
-  background-image: url(../../assets/Background-Humans.png);
+  background-image: url(../assets/Background-Humans.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -847,7 +848,7 @@ img {
   height: 1.25rem;
   bottom: 0;
   left: 0;
-  background-image: url("../../assets/Section-divider.png");
+  background-image: url("../assets/Section-divider.png");
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
@@ -893,7 +894,7 @@ img {
   }
 }
 .banner {
-  background-image: url(../../assets/Outro-background.png);
+  background-image: url(../assets/Outro-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -940,7 +941,7 @@ img {
   height: 1.25rem;
   bottom: 0;
   left: 0;
-  background-image: url("../../assets/Section-divider.png");
+  background-image: url("../assets/Section-divider.png");
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
@@ -982,7 +983,7 @@ img {
   }
 }
 .other {
-  background-image: url(../../assets/Leather-background.png);
+  background-image: url(../assets/Leather-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1055,7 +1056,7 @@ img {
   height: 1.25rem;
   bottom: 0;
   left: 0;
-  background-image: url("../../assets/Section-divider.png");
+  background-image: url("../assets/Section-divider.png");
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
